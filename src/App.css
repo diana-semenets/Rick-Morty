@@ -1,0 +1,57 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:regular,500,700);
+@import url(https://fonts.googleapis.com/css?family=Karla:regular,700);
+
+a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+li {
+  list-style: none;
+}
+
+.App {
+  max-width: 1440px;  
+  text-align: center;
+  margin: 0 auto;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.87);
+  box-sizing: border-box;
+}
+
+.logo {
+  max-width: 600px;
+  margin: 86px auto 16px;
+}
+.logo img {
+  width: 100%;
+}
+.cards {
+  max-width: 1060px;
+  margin: 61px auto 188px;
+  padding: 0 20px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(4, 1fr); 
+}
+
+@media (max-width: 798px) {
+  .logo {
+    margin: 40px auto 16px;
+    padding: 0 20px;
+  }
+  .cards {
+    max-width: 798px;
+    margin: 61px auto 60px;    
+    grid-template-columns: repeat(3, 1fr); 
+  }
+}
+@media (max-width: 600px) {
+  .cards {
+    max-width: 500px;      
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 15px;
+  }
+}

@@ -1,0 +1,26 @@
+.login {    
+    display: flex;
+    justify-content: end;
+    margin-right: 20px;
+}
+.login-btn {    
+    height: 35px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Karla';
+    font-size: 18px;
+    background-color: #fff;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2), 0px 3px 4px rgba(0, 0, 0, 0.12), 0px 2px 4px rgba(0, 0, 0, 0.14);
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all ease 0.2s;
+}
+.login-btn:hover {
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.3), 0px 3px 4px rgba(0, 0, 0, 0.15), 0px 2px 4px rgba(0, 0, 0, 0.16);
+    transform: scale(1.04);
+}
+.login-btn img {
+    display: block;
+}
